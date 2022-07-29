@@ -1,4 +1,4 @@
-var mongoose = require("mongoose");
+const mongoose = require("mongoose");
 const bcrypt = require('bcryptjs');
 var Schema = mongoose.Schema;
 
@@ -78,7 +78,7 @@ module.exports.checkUser = function(userData){
                     if(res == true){
                     user[0].loginHistory.push({dataTime: (new Date()).toString(), userAgent: userData.userAgent});
 
-                    User.updateOne({userName: users[0].userName},
+                    User.updateOne({userName: user[0].userName},
                          {$set:{loginHistory: user[0].loginHistory}})
                          .exec()
                          .then(()=>{

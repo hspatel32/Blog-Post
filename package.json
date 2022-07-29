@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Harsh Shaileshkumar patel",
+  "author": "Harsh Shaileshkumar Patel",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
