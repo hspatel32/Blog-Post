@@ -1,4 +1,17 @@
-//https://young-everglades-54522.herokuapp.com/
+/*********************************************************************************
+*  WEB322 – Assignment 06
+*  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part of this
+*  assignment has been copied manually or electronically from any other source (including web sites) execpt the
+*   code provided by proffessor or 
+*  distributed to other students.
+* 
+*  Name: Harsh Shaileshkumar Patel Student ID: 144938206 Date: 2022-07-28
+*
+*  Online (Heroku) Link: https://young-everglades-54522.herokuapp.com/
+*
+********************************************************************************/ 
+
+
 const express = require('express');
 const blogData = require("./blog-service");
 const multer = require("multer");
