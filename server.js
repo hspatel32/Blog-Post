@@ -25,12 +25,13 @@ const app = express();
 
 const HTTP_PORT = process.env.PORT || 8080;
 
-cloudinary.config({
-    cloud_name: 'harsh7049',
-    api_key: '787118794457725',
-    api_secret: 'mQgC7sm4cX6TdINVC-MZtWOHQo4',
-    secure: true
-});
+cloudinary.config(
+  cloud_name = "harsh7049",
+  api_key = "787118794457725",
+  api_secret = "mQgC7sm4cX6TdINVC-MZtWOHQo4",
+  secure = true
+)
+
 
 const upload = multer();
 
