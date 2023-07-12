@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
-var sequelize = new Sequelize('kxvnvzih', 'kxvnvzih', 'h90UVYd1W_V42GxgdSoOz-2ofZgs0Dky', {
-    host: 'postgres://kxvnvzih:h90UVYd1W_V42GxgdSoOz-2ofZgs0Dky@rajje.db.elephantsql.com/kxvnvzih',
+var sequelize = new Sequelize('zxiccydc', 'zxiccydc', 'DxYzX2kqzyrFC7lZpWkBhw-7CIAHKe1n', {
+    host: 'stampy.db.elephantsql.com',
     dialect: 'postgres',
     port: 5432,
     dialectOptions: {
